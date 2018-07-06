@@ -14,7 +14,7 @@ app.use(express.static('public'));
      var io = socket(server);
      io.on('connection', (socket) => {
 
-       console.log('made socket connection', socket.id);
+      console.log('made socket connection', socket.id);
 
     // Handle chat event
         socket.on('chat', function(data){
