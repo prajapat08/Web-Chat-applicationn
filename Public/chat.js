@@ -3,7 +3,7 @@ var socket=io.connect('http://localhost:4000');
 //dom query
 var message=document.getElementById('message');
 var handle=document.getElementById('handle');
- var btn=document.getElementById('send');
+var btn=document.getElementById('send');
 var output=document.getElementById('output');
 var feedback=document.getElementById('feedback');
 //emit event
