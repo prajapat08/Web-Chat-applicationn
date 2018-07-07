@@ -22,7 +22,7 @@ var server = app.listen(4000, function(){
         io.sockets.emit('chat', data);
     });
 
-socket.on('typing',function(data) {
+      socket.on('typing',function(data) {
 	// body...
 	socket.broadcast.emit('typing', data);
 });
