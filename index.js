@@ -19,7 +19,7 @@ var server = app.listen(4000, function(){
        // Handle chat event
         socket.on('chat', function(data){
         // console.log(data);
-        io.sockets.emit('chat', data);
+         io.sockets.emit('chat', data);
     });
 
       socket.on('typing',function(data) {
