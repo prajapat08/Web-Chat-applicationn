@@ -14,10 +14,10 @@ btn.addEventListener('click',function(){
 		handle: handle.value });
 	// body...
 });
-message.addEventListener('keypress', function() {
-socket.emit('typing', handle.value)	;
-	// body...
-});
+	message.addEventListener('keypress', function() {
+	socket.emit('typing', handle.value)	;
+		// body...
+	});
 
 //listen for events
 socket.on('chat',function (data) {
