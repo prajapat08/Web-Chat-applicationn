@@ -1,12 +1,12 @@
 body{
-    font-family: 'Nunito';
+    font-family: 'Nunito'; 
 }
 
 h2{
     font-size: 18px;
     padding: 10px 20px;
     color: #575ed8;
-}
+  }
 
 #mario-chat{
     max-width: 600px;
