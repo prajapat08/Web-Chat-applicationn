@@ -23,7 +23,7 @@ var server = app.listen(4000, function(){
     });
 
       socket.on('typing',function(data) {
-	// body...
-	socket.broadcast.emit('typing', data);
+	// body
+	     socket.broadcast.emit('typing', data);
 });
 });
