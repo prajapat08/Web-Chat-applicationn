@@ -12,11 +12,11 @@ btn.addEventListener('click',function(){
 	socket.emit('chat',{
 	        message: message.value,
 		handle: handle.value });
-	// body...
+	// body.
 });
 	message.addEventListener('keypress', function() {
 	socket.emit('typing', handle.value)	;
-		// body...
+		// body.
 	});
 
 //listen for events
