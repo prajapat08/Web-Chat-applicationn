@@ -7,7 +7,7 @@ var server = app.listen(4000, function(){
      console.log('sever is running on port 4000, or type localhost:4000');
 });
 
-// Static files
+    // Static files
        app.use(express.static('public'));
 
      // Socket setup & pass server
