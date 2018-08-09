@@ -13,7 +13,7 @@ btn.addEventListener('click',function(){
 	        message: message.value,
 		handle: handle.value });
 	// body.
-});
+}); 
 	message.addEventListener('keypress', function() {
 	socket.emit('typing', handle.value)	;
 		// body.
